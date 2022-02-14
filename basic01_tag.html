@@ -1,0 +1,78 @@
+<!-- 문서의 타입 -->
+<!DOCTYPE html>
+<!-- 최상위 앨리먼트, 태그이다, lang이라는 어트리뷰트 안에는 en 영어로 작성된 문서이다 ko로 사용하면 그 기준으로 번역하겠습니까라는게 뜸-->
+<html lang="en">
+<!-- 문서에 관련된 메타 정보 책의날개 같은 부분 -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Put your description here.">
+    <meta name="author" content="Yoo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindspace studio</title>
+</head>
+
+<body>
+    <main>
+        <!-- semantic tag -->
+        <header>
+            <h1>Mindspace studio</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">History</a></li>
+                    <li><a href="home.html">Gallery</a></li>
+                    <li><a href="home.html">Game</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--특정영역구분-->
+        <section>
+            <article>
+                <!-- lorem ipsum: dummy text ,lorem10 , 합글입숨 -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, beatae!</p>
+            
+                <p>Manu</p>
+                <ol>
+                    <li>아이스 아메리카노</li>
+                    <li>시나몬 라떼</li>
+                    <li>사과유자차</li>
+                    <li>쌍화차</li>
+                </ol>
+
+                <figure> <!-- alternative : 대체 텍스트 ,이미지깨졋을때 설명해줌 묘사형태로 적어주는것이 좋음-->
+                    <img src="mindspace-studio.jpg" alt="Mindspace studion room">
+                    <figcaption>Mindspace studio room</figcaption> <!-- 사진 설명 -->
+                </figure>
+            </article>
+            <article>
+                <h2>메뉴 제안</h2>
+                <form action="action/">
+                    <!-- name 변수이름, id -->
+                    <label for="menu-name">메뉴 이름</label>
+                    <input type="text" name="menuName" id="menu-name"><br/><br/>
+                    <label for="menu-desc">메뉴 설명</label>
+                    <input type="text" name="menuDesc" id="menu-desc"><br/><br/>
+                    <label for="menu-email">E-mail</label>
+                    <input type="email" name="userEmail" id="menu-email"><br/><br/>
+                    <label for="menu-password">비밀번호</label>
+                    <input type="password" name="userPassword" id="menu-password"><br/><br/>
+                    <button type="submit">등록</button>
+                    <button type="reset">취소</button>
+                </form>
+            </article>
+            <aside>
+                <!-- 보통 광고 영역-->
+                <p>광고. 다이나핏 다운패딩 '2월' 특가 60% 119,600원</p>
+            </aside>
+        </section>
+        <footer>
+            <p>1. 주소: 서울 강남구 어디로 200 -1</p>
+            <p>2. 연락처: 02-000-0000</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
