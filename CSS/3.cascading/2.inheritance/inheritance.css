@@ -1,0 +1,16 @@
+.disney {
+    color: firebrick;
+    font-size: 40px;
+}
+
+p {
+    border: dashed 2px;
+}
+
+h3 {
+    color: green
+}
+
+#sidebar h3 {
+    color: inherit;
+}

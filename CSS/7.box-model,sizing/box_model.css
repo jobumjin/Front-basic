@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    background-color: skyblue;
+    font-size: 50px;
+    padding: 20px;
+    border: 5px dashed beige;
+    margin: 60px;
+    /* margin: 20px 40px; 상, 하 기준 */
+    /* margin: 10px 20px 30px 40px; 시계 방향 */
+    /* margin: 10px 20px 30px; 상, 좌우, 하 */
+}
